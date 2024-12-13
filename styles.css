@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #000; /* Black text */
+}
+
+/* Header */
+header {
+    background-color: #001f3f; /* Navy blue */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #0074D9; /* Light blue */
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Container */
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Item Card */
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    background-color: #f8f9fa; /* Light gray */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+    background-color: #dceffe; /* Slightly lighter blue */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #001f3f; /* Navy blue */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
